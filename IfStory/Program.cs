@@ -1,5 +1,6 @@
-﻿// story draft
-// rougue like? something like a dungeon crawler
+﻿
+
+
 
 string choice = "";
 Console.WriteLine("You wake up in a dark room. You don't remember anything about how you got there.");
@@ -50,6 +51,12 @@ else if (choice == "2")
         if (choice == "walk around")
         {
             Console.WriteLine("The pitbull runs towards you, you get scared and have a heartattack");
+        }
+        else if (choice == "pet" || choice == "pet it")
+        {
+            Console.WriteLine("You pet the dog, it smiles and walks you too the door where you escape."); //Ended of here
+            Console.WriteLine("You survived!");
+            Console.ReadLine();
         }
 
     }
