@@ -16,6 +16,7 @@ if (choice == "1")
     Console.WriteLine("You open the window and jump before looking down");
     Console.WriteLine("Turns out that was a bad idea to not look down, you're now rapidly falling 4 stories towards concrete");
     Console.WriteLine("You broke your neck and died on impact :(");
+    Console.ReadLine();
 }
 
 else if (choice == "2")
@@ -36,6 +37,7 @@ else if (choice == "2")
         {
             Console.WriteLine("The floor squeeks and the old man hears you");
             Console.WriteLine("He swiftly grabs his shotgun and shoots you");
+            Console.ReadLine();
         }
 
     }
@@ -51,6 +53,7 @@ else if (choice == "2")
         if (choice == "walk around")
         {
             Console.WriteLine("The pitbull runs towards you, you get scared and have a heartattack");
+            Console.ReadLine();
         }
         else if (choice == "pet" || choice == "pet it")
         {
@@ -63,10 +66,12 @@ else if (choice == "2")
     else
     {
         Console.WriteLine("Didn't understand, the floor collapses and you fall to your death");
+        Console.ReadLine();
     }
 
 }
 else
 {
     Console.WriteLine("Didn't understand, you stand still until you die of hunger");
+    Console.ReadLine();
 }
